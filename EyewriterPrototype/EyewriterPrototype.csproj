@@ -78,9 +78,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UserInterface\Graphics.UserInterface.csproj">
-      <Project>{a9fa29d6-fcf7-4116-ac6e-6bf279a17278}</Project>
-      <Name>Graphics.UserInterface</Name>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{fa251f5c-7218-4500-8e2e-cc07cfc4bce7}</Project>
+      <Name>Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
