@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyewriterPrototype", "EyewriterPrototype\EyewriterPrototype.csproj", "{2315A5B5-21B4-45C6-A637-4BC4330664D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F0D74097-9B1D-4670-85C0-7DFBDE7BF772} = {F0D74097-9B1D-4670-85C0-7DFBDE7BF772}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics", "Graphics\Graphics.csproj", "{6B8315E1-C86B-4C56-9E57-6FBE821BE9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{FA251F5C-7218-4500-8E2E-CC07CFC4BCE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{F0D74097-9B1D-4670-85C0-7DFBDE7BF772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics.UserInterface", "UserInterface\Graphics.UserInterface.csproj", "{A9FA29D6-FCF7-4116-AC6E-6BF279A17278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCV", "OpenCV\OpenCV.csproj", "{90EC4D3C-25F0-4523-A1C5-02CEFE081F35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2315A5B5-21B4-45C6-A637-4BC4330664D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2315A5B5-21B4-45C6-A637-4BC4330664D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2315A5B5-21B4-45C6-A637-4BC4330664D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2315A5B5-21B4-45C6-A637-4BC4330664D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8315E1-C86B-4C56-9E57-6FBE821BE9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8315E1-C86B-4C56-9E57-6FBE821BE9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8315E1-C86B-4C56-9E57-6FBE821BE9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8315E1-C86B-4C56-9E57-6FBE821BE9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA251F5C-7218-4500-8E2E-CC07CFC4BCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA251F5C-7218-4500-8E2E-CC07CFC4BCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA251F5C-7218-4500-8E2E-CC07CFC4BCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA251F5C-7218-4500-8E2E-CC07CFC4BCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0D74097-9B1D-4670-85C0-7DFBDE7BF772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D74097-9B1D-4670-85C0-7DFBDE7BF772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0D74097-9B1D-4670-85C0-7DFBDE7BF772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D74097-9B1D-4670-85C0-7DFBDE7BF772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FA29D6-FCF7-4116-AC6E-6BF279A17278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FA29D6-FCF7-4116-AC6E-6BF279A17278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FA29D6-FCF7-4116-AC6E-6BF279A17278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FA29D6-FCF7-4116-AC6E-6BF279A17278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EC4D3C-25F0-4523-A1C5-02CEFE081F35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EC4D3C-25F0-4523-A1C5-02CEFE081F35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EC4D3C-25F0-4523-A1C5-02CEFE081F35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EC4D3C-25F0-4523-A1C5-02CEFE081F35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
